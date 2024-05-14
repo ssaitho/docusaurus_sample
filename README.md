@@ -2,6 +2,10 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+### node
+
+v20.12.2
+
 ### Installation
 
 ```
