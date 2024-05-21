@@ -1,0 +1,29 @@
+# MDX で HTML 書いてみた
+
+## Create a folder for the project
+
+<div className="mdx-grid">
+  <div>
+    Start by creating a folder for the project. This folder will house two other
+    folders: one for your web application a small app written with Express.js
+    and another for the Pulumi program defining the New Relic infrastructure to
+    monitor it.
+  </div>
+  <div>
+    ```js title="docusaurus.config.js"
+    export default {
+      themeConfig: {
+        navbar: {
+          items: [
+            // highlight-start
+            {
+              type: 'docsVersionDropdown',
+            },
+            // highlight-end
+          ],
+        },
+      },
+    };
+    ```
+  </div>
+</div>
