@@ -42,6 +42,10 @@ const config: Config = {
         // ```
         // language: ["en", "zh"],
         // ```
+        language: ["ja", "en"],
+        docsRouteBasePath: "/",
+        docsDir: "docs",
+        indexBlog: false,
       },
     ],
   ],
