@@ -28,6 +28,8 @@ const config: Config = {
     defaultLocale: "ja",
     locales: ["ja"],
   },
+  // sassの有効化
+  plugins: ["docusaurus-plugin-sass"],
 
   themes: [
     // ... Your other themes.
@@ -64,7 +66,7 @@ const config: Config = {
         },
         blog: false,
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: "./src/css/custom.scss",
         },
       } satisfies Preset.Options,
     ],
