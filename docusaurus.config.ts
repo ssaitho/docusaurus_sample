@@ -66,7 +66,7 @@ const config: Config = {
         },
         blog: false,
         theme: {
-          customCss: "./src/css/custom.scss",
+          customCss: "./src/stylesheets/custom.scss",
         },
       } satisfies Preset.Options,
     ],
